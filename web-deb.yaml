@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-web
-        image: jinsu0625/osci-test-nginx:16
+        image: jinsu0625/osci-test-nginx:17
         ports:
         - containerPort: 80
         env:
