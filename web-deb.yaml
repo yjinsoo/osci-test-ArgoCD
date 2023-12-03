@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: dev-web
-        image: jinsu0625/osci-test-nginx:14
+        image: jinsu0625/osci-test-nginx:15
         ports:
         - containerPort: 80
         env:
           - name: TOMCATS
-            value: k8s-default-pro3apps-2c901554ca-ccd0daa811f69a71.elb.us-west-2.amazonaws.com
+            value: dev-app-service
